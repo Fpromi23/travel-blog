@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog</title>
+</head>
+<body>
+
+    <h1>Welcome to FP's Travel Blog</h1>
+    <input type="text" id="userName" placeholder="Enter your name">
+    <button onclick="saveName()">Save Name</button>
+
+    <p id="welcomeMessage"></p>
+
+    <script>
+        // Check if there is a name saved in local storage
+        window.onload = function() {
+            const savedName = localStorage.getItem('userName');
+            if (savedName) {
+                document.getElementById('welcomeMessage').innerText = `Welcome back, ${savedName}!`;
+            }
+        }
+
+        // Function to save the name to local storage
+        function saveName() {
+            const name = document.getElementById('userName').value;
+            if (name) {
+                localStorage.setItem('userName', name);
+                document.getElementById('welcomeMessage').innerText = `Welcome, ${name}!`;
+            }
+        }
+    </script>
+
+</body>
+</html>
