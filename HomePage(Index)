@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog - Welcome</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="bg-dark text-white text-center p-4">
+        <img src="1583275772247.jpeg" alt="Travel Blog Logo" class="img-fluid" style="max-width: 150px;">
+        <h1>FP's Travel Packages</h1>
+        <p>Explore the world through our travel guides and tips!</p>
+    </header>
+
+    <!-- Navigation Bar -->
+ 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">Travel Blog</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="form.html">Travel Inquiry</a></li>
+                <li class="nav-item"><a class="nav-link" href="table.html">Travel Packages</a></li>
+                <li class="nav-item"><a class="nav-link" href="media.html">Media</a></li>
+                <li class="nav-item"><a class="nav-link" href="gallery.html">Image Gallery</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+    <!-- Featured Destinations Section -->
+    <section class="container my-5">
+        <h2>Featured Destinations</h2>
+        <div class="row">
+            <!-- Destination 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="85.jpeg" class="card-img-top" alt="Paris">
+                    <div class="card-body">
+                        <h5 class="card-title">Paris</h5>
+                        <p class="card-text">Experience the city of lights with our complete travel guide.</p>
+                        <a href="paris.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Destination 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="GettyImages-1145042281.jpeg.webp" class="card-img-top" alt="Bali">
+                    <div class="card-body">
+                        <h5 class="card-title">Bali</h5>
+                        <p class="card-text">Explore the stunning beaches and rich culture of Bali.</p>
+                        <a href="bali.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Destination 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="caption.jpg" class="card-img-top" alt="Tokyo">
+                    <div class="card-body">
+                        <h5 class="card-title">Tokyo</h5>
+                        <p class="card-text">Dive into the vibrant life of Tokyo with our detailed guide.</p>
+                        <a href="tokyo.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center p-3">
+        <p>&copy; 2024 Travel Blog. All rights reserved.</p>
+        
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
